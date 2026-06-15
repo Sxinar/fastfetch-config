@@ -17,5 +17,3 @@ Aşağıdaki komutu kopyalayıp terminalinize yapıştırmanız yeterlidir. Kuru
 
 ```bash
 curl -sSL [https://raw.githubusercontent.com/KULLANICI_ADIN/DEPO_ADIN/main/install.sh](https://raw.githubusercontent.com/KULLANICI_ADIN/DEPO_ADIN/main/install.sh) | bash
-
-## GeminiAI üretimidir!
