@@ -1,0 +1,86 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "source": null, // null bırakıldığında işletim sistemini otomatik tespit eder
+    "padding": {
+      "top": 2,
+      "left": 3
+    }
+  },
+  "display": {
+    "separator": " ",
+    "color": {
+      "keys": "bright_white",
+      "output": "bright_white"
+    },
+    "key": {
+      "width": 13
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "bright_blue",
+        "at": "bright_white",
+        "host": "bright_cyan"
+      }
+    },
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────",
+      "outputColor": "bright_blue"
+    },
+    {
+      "type": "os",
+      "key": " {#34}┃{#} OS         "
+    },
+    {
+      "type": "kernel",
+      "key": " {#35}┃{#} Kernel     "
+    },
+    {
+      "type": "uptime",
+      "key": " {#36}┃{#} Uptime     "
+    },
+    {
+      "type": "packages",
+      "key": " {#32}┃{#} Packages   "
+    },
+    {
+      "type": "shell",
+      "key": " {#33}┃{#} Shell      "
+    },
+    {
+      "type": "de",
+      "key": " {#31}┃{#} DE         "
+    },
+    {
+      "type": "terminal",
+      "key": " {#34}┃{#} Terminal   "
+    },
+    {
+      "type": "cpu",
+      "key": " {#35}┃{#} CPU        "
+    },
+    {
+      "type": "gpu",
+      "key": " {#36}┃{#} GPU        "
+    },
+    {
+      "type": "memory",
+      "key": " {#32}┃{#} Memory     "
+    },
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────",
+      "outputColor": "bright_blue"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "██"
+    }
+  ]
+}
