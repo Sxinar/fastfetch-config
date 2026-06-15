@@ -38,7 +38,7 @@ fi
 
 # 3. Config indirme (Kendi kullanıcı adın ve depo adınla değiştir)
 echo -e "${BLUE}==> Sxinar Fastfetch tasarımı indiriliyor...${NC}"
-curl -sS https://raw.githubusercontent.com/KULLANICI_ADIN/DEPO_ADIN/main/config.jsonc -o ~/.config/fastfetch/config.jsonc
+curl -sS https://raw.githubusercontent.com/Sxinar/fastfetch-config/main/config.jsonc -o ~/.config/fastfetch/config.jsonc
 
 # 4. SİHİRLİ DOKUNUŞ: Logoyu dağıtıma göre küçük logoya zorla
 if [ "$DISTRO" != "auto" ]; then
