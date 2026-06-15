@@ -16,4 +16,4 @@ BTT topluluğunun modern, renkli bloklu ve çizgili minimalist tasarımından es
 Aşağıdaki komutu kopyalayıp terminalinize yapıştırmanız yeterlidir. Kurulum betiği, dağıtımınızı otomatik tanıyıp gerekli konfigürasyonları yapacaktır:
 
 ```bash
-curl -sSL [https://raw.githubusercontent.com/KULLANICI_ADIN/DEPO_ADIN/main/install.sh](https://raw.githubusercontent.com/KULLANICI_ADIN/DEPO_ADIN/main/install.sh) | bash
+curl -sSL https://raw.githubusercontent.com/Sxinar/fastfetch-config/main/install.sh | bash
