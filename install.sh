@@ -40,11 +40,10 @@ fi
 echo -e "${BLUE}==> Sxinar Fastfetch tasarımı indiriliyor...${NC}"
 curl -sS https://raw.githubusercontent.com/Sxinar/fastfetch-config/main/config.jsonc -o ~/.config/fastfetch/config.jsonc
 
-# 4. SİHİRLİ DOKUNUŞ: Logoyu dağıtıma göre küçük logoya zorla
+# 4. SİHİRLİ DOKUNUŞ: Logoyu dağıtıma göre küçük logoya zorla (Hatasız yeni yöntem)
 if [ "$DISTRO" != "auto" ]; then
-    # config.jsonc içindeki "type": "auto" kısmını "type": "${DISTRO}_small" yapar
-    # Örn: fedora_small, arch_small veya ubuntu_small olur. Tasarım asla kaymaz!
-    sed -i "s/\"type\": \"auto\"/\"type\": \"${DISTRO}_small\"/g" ~/.config/fastfetch/config.jsonc
+    # config.jsonc içindeki "source": "auto" kısmını "source": "fedora_small" (veya hangi dağıtımsa) yapar.
+    sed -i "s/\"source\": \"auto\"/\"source\": \"${DISTRO}_small\"/g" ~/.config/fastfetch/config.jsonc
 fi
 
 echo -e "${GREEN}[✓] Kurulum başarıyla tamamlandı! 'fastfetch' yazarak test edebilirsiniz.${NC}"
